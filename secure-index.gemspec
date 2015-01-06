@@ -19,5 +19,6 @@ Gem::Specification.new do |s|
   s.licenses = ['MIT']
   s.extra_rdoc_files = ['README.md']
 
-  s.add_dependency 'redis', '~> 3.2.0'
+  s.add_runtime_dependency 'redis', '~> 3.2.0', '>= 3.2.0'
+  s.add_runtime_dependency 'encryptor', '~> 1.3.0', '>= 1.3.0'
 end
